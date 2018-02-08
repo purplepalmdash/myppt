@@ -1,10 +1,5 @@
 # 云计算技术介绍
 
-- 云计算
-- 虚拟化技术
-- 容器与容器云
-- 云端的大数据
-
 ---
 
 ### 目录/Contents
@@ -16,6 +11,24 @@
 
 ---
 
+### 什么是云计算
+#### 计算模型视角
+这里是这里是
+这里是这里是
+这里是这里是
+#### 底层支撑技术视角
+这里是这里是
+这里是这里是
+这里是这里是
+
+#### 服务提供视角
+这里是这里是
+这里是这里是
+这里是这里是
+
+---
+
 ![Flux Explained](https://facebook.github.io/flux/img/flux-simple-f8-diagram-explained-1300w.png)
 
 Cloud Computing/Virtualization/Container/Big DataCloud
+---
