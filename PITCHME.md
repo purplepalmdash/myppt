@@ -27,8 +27,26 @@
 这里是这里是
 
 ---
+### 一些源代码
 
-![Flux Explained](https://facebook.github.io/flux/img/flux-simple-f8-diagram-explained-1300w.png)
+```
+// typical use : sudo ./a.out /dev/input/event*
+int main (int argc, char *argv[])
+{
+  struct input_event ev[64];
+  int fd[argc],rd,idev,value, size = sizeof (struct input_event);
+  char name[256] = "Unknown";
 
-Cloud Computing/Virtualization/Container/Big DataCloud
+  if(argc==1) return -1;
+
+  int ndev=1;
+  while(ndev<argc && (fd[ndev] = open (argv[ndev], O_RDONLY|O_NONBLOCK)) != -1){
+    ndev++;
+  }
+  fprintf (stderr,"Found %i devices.\n", ndev);
+  if(ndev==1) return -1;
+
+```
+
+
 ---
