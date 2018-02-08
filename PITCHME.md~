@@ -20,27 +20,9 @@
 海量高并发(用户规模大规模增长后所需的负载均衡/弹性伸缩)的产物.    
 
 ---
-### 一些源代码
+### 云计算发展历程
 
-```
-// typical use : sudo ./a.out /dev/input/event*
-int main (int argc, char *argv[])
-{
-  struct input_event ev[64];
-  int fd[argc],rd,idev,value, size = sizeof (struct input_event);
-  char name[256] = "Unknown";
-
-  if(argc==1) return -1;
-
-  int ndev=1;
-  while(ndev<argc && (fd[ndev] = open (argv[ndev], O_RDONLY|O_NONBLOCK)) != -1){
-    ndev++;
-  }
-  fprintf (stderr,"Found %i devices.\n", ndev);
-  if(ndev==1) return -1;
-
-```
-
+![./images/2018_02_08_10_46_26_1837x761.jpg](./images/2018_02_08_10_46_26_1837x761.jpg)
 
 ---
 ### 换行
